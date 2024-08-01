@@ -1,0 +1,105 @@
+ body{
+    background-color: rgb(13, 13, 13);
+    color: #f9f6f6  ;
+}
+.overflow{
+    overflow: hidden;
+}
+main{
+    margin-left: 66px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+ .nav{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+ }
+.nav-body{
+    color: white;
+    background-color: rgb(13, 13, 13);
+}
+.nav li{
+    padding: 8px 0px;
+    cursor:pointer;
+    position: relative;
+    top: 200px;
+    /* opacity: 0; */
+}
+ .nav-bar{
+    width: 66px;
+    background-color: white;
+    z-index: 10;
+ }
+.cursor-poiter{
+    cursor:pointer;
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    top: 100%;
+    transition: .5s;
+}
+.meal:hover .layer{
+    top: 0;
+}
+.details{
+    display: none;
+}
+.search-bar{
+    display: none;
+    z-index: 7;
+}
+.search-bar input::placeholder{
+    color:  #f9f6f693 !important;
+}
+.loading{
+    background-color: rgb(13, 13, 13);
+    display: block ;
+    z-index: 5;
+}
+.reload{
+    position:fixed !important;
+    display: block;
+    width: 100vw;
+    height: calc(100vh + 2*48px);
+z-index: 9999;
+}
+.contact-us{
+    display: none;
+
+}
+.form{
+    min-height: calc(100vh - 2*50px);
+
+}
+/* .toggel span.a{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+.toggel span.b{
+    display: none;
+}
+.toggel span.c{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+.toggel.open{
+    line-height: 0;
+}
+.nav-bar .toggel{
+    line-height: 10px;
+ }
+ .nav-bar .toggel span{
+    display: inline-block;
+    width: 100%;
+    height: 5px;
+    background-color: black;
+ } */
